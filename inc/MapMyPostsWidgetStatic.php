@@ -62,7 +62,7 @@ class MapMyPostsWidgetStatic extends WP_Widget {
 			'taxonomy' => $instance['taxonomy'],
 		);
 		$mmp = MapMyPosts::get_instance();
-		$mmp->get_staticmap( $atts );
+		echo $mmp->get_staticmap( $atts );
 		if ($instance['link']) {
 			echo '</a>';
 		}

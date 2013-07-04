@@ -66,7 +66,7 @@ class MapMyPostsWidgetGmap extends WP_Widget {
 		);
 		
 		$mmp = MapMyPosts::get_instance();
-		$mmp->get_map( $atts );
+		echo $mmp->get_map( $atts );
 		
 		// $after_widget defined by theme
 		echo $after_widget;
