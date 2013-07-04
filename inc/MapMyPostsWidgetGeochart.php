@@ -64,7 +64,7 @@ class MapMyPostsWidgetGeochart extends WP_Widget {
 		);
 		
 		$mmp = MapMyPosts::get_instance();
-		$mmp->get_geochart( $atts );
+		echo $mmp->get_geochart( $atts );
 		
 		// $after_widget defined by theme
 		echo $after_widget;
