@@ -15,7 +15,7 @@
  * Plugin Name: Map My Posts
  * Plugin URI: http://www.aroundthisworld.com/map-my-posts-wordpress-plugin/
  * Description: Display a Google Map or Geochart visualization, using map locations associated with categories or tags.
- * Version: 1.0.3
+ * Version: 1.0.4
  * Author: Erik Fantasia
  * Author URI: http://www.aroundthisworld.com
  * Text Domain: map-my-posts
@@ -37,7 +37,7 @@ if ( !function_exists( 'spl_autoload_register' ) && is_admin() ) {
 }
 
 if ( !defined( 'MAPMYPOSTS_VERSION' ) ) {
-	define( 'MAPMYPOSTS_VERSION', '1.0.3' );
+	define( 'MAPMYPOSTS_VERSION', '1.0.4' );
 }
 if ( !defined( 'MAPMYPOSTS_URL' ) ) {
 	define( 'MAPMYPOSTS_URL', plugin_dir_url( __FILE__ ) );
