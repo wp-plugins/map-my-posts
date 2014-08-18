@@ -165,7 +165,7 @@ class MapMyPostsAdmin {
 		$this->plugin_screen_hook_suffix = add_options_page(
 			__( 'Map My Posts', 'map-my-posts' ), // heading
 			__( 'Map My Posts', 'map-my-posts' ), // menu name
-			'read',
+			'manage_options',
 			MAPMYPOSTS_PLUGIN_SLUG,
 			array( $this, 'display_admin_page' )
 		);

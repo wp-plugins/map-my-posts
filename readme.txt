@@ -3,8 +3,8 @@ Contributors: epfantasia
 Donate link: http://www.aroundthisworld.com/map-my-posts-wordpress-plugin/
 Tags: map, google maps, maps, mapping, geo, countries, locations, travel, geocode, geochart, latitude, longitude, widget, widgets
 Requires at least: 3.0
-Tested up to: 3.5.2
-Stable tag: 1.0.3
+Tested up to: 3.9.2
+Stable tag: 1.0.4
 License: GPL-2.0+
 
 Map My Posts allows you to display a Google Map or Geochart visualization, associating map locations with your existing categories or tags.
@@ -52,6 +52,7 @@ More information is available at the [Map My Posts guide](http://www.aroundthisw
 
 == Changelog ==
 
+= 1.0.4 = Adjusted admin permissions. Spanish translation thanks to [Web Hosting Hub](http://www.webhostinghub.com/)!
 = 1.0.3 = Fixed bug: shortcode not appearing in correct location on pages and posts.
 = 1.0.2 = Included POT file for plugin translation.
 = 1.0.1 = Removed assets directory from plugin package to reduce filesize.
