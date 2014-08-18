@@ -498,8 +498,13 @@ class MapMyPosts {
 		}
 		*/
 		
+		ob_start();
 		// don't use include_once or it won't show more than one per page!
 		include( MAPMYPOSTS_VIEWS . 'geochart.php' );
+		$output = ob_get_contents();
+		ob_end_clean();
+		
+		return $output;
 	}
 	
 	/**
@@ -555,8 +560,13 @@ class MapMyPosts {
 			}
 		}
 		
+		ob_start();
 		// don't use include_once or it won't show more than one per page!
 		include( MAPMYPOSTS_VIEWS . 'gmap.php' );
+		$output = ob_get_contents();
+		ob_end_clean();
+		
+		return $output;
 	}
 	
 	/**
@@ -572,14 +582,16 @@ class MapMyPosts {
 	 */
 	public function get_staticmap( $atts ) {
 		$url = $this->get_staticmap_url( $atts );
-		echo '<img src="' . $url . '"';
+		$output = '<img src="' . $url . '"';
 		if ( $atts['width'] ) {
-			echo ' width="' . $atts['width'] . '"';
+			$output .= ' width="' . $atts['width'] . '"';
 		}
 		if ( $atts['height'] ) {
-			echo ' height="' . $atts['height'] . '"';
+			$output .= ' height="' . $atts['height'] . '"';
 		}
-		echo '>';
+		$output .= '>';
+		
+		return $output;
 	}
 	
 	/**
