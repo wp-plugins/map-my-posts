@@ -3,7 +3,7 @@ Contributors: epfantasia
 Donate link: http://www.aroundthisworld.com/map-my-posts-wordpress-plugin/
 Tags: map, google maps, maps, mapping, geo, countries, locations, travel, geocode, geochart, latitude, longitude, widget, widgets
 Requires at least: 3.0
-Tested up to: 3.9.2
+Tested up to: 4.0
 Stable tag: 1.0.4
 License: GPL-2.0+
 
